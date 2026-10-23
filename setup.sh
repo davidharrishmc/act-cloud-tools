@@ -4,7 +4,7 @@
 # /usr/local/bin, and installs mise with the repo's tool versions.  Paste into the environment's
 # "Setup script" field.  Runs as root on Ubuntu 24.04; must finish in ~5 min to be cached.
 set -euo pipefail
-TAG=${ACT_TOOLS_TAG:-v2026-10-23}
+TAG=${ACT_TOOLS_TAG:-v2026-10-23b}
 SIMS=${ACT_TOOLS_TARBALL:-https://github.com/davidharrishmc/act-cloud-tools/releases/download/$TAG/act4-sims-ubuntu24.04-x86_64.tar.gz}
 SAIL=0.16
 GCC=2026.08.27

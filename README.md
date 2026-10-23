@@ -7,8 +7,8 @@ Prebuilt simulators and a setup script for running [riscv-arch-test](https://git
 |---|---|---|
 | Sail RISC-V | 0.16 | sail-riscv release, downloaded by `setup.sh` |
 | RISC-V GCC | 2026.08.27 | riscv-gnu-toolchain release, downloaded by `setup.sh` |
-| Spike | 5a760667bf0d | built by `build-in-container.sh` (release tarball) |
-| Whisper | 76f03922da79 | built by `build-in-container.sh` (release tarball) |
+| Spike | 2c300cd90eb7 | built by `build-in-container.sh` (release tarball) |
+| Whisper | 1d60e5ceb4b6 | built by `build-in-container.sh` (release tarball) |
 | QEMU | 11.1.2 (riscv32/64-softmmu) | built by `build-in-container.sh` (release tarball) |
 
 The versions are the ones ACT's CI pins (`.github/scripts/install-*.sh`, `.github/actions/setup-tools`).
